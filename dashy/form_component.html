@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+   <section id="container">
+        <header class="header black-bg">
+          <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+          </div><!--cierre de sidebar-toggle-box-->   
+          <a href="dashboard.html" class="logo hidden-xs"><b>ADVENTURE TIME : DASHBOARD</b></a>
+          <a href="dashboard.html" class="logo visible-xs"><b>ADV. TIME</b></a>
+          <div class="top-menu">
+            <ul class="nav pull-right top-menu">
+              <li>
+                <a class="logout" href="login.html" target="new">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <aside>
+          <div id="sidebar" class="nav-collapse ">
+            <ul class="sidebar-menu">
+              <p class="text-center">
+                <a href="login.html">
+                  <img src="img/profile_avatar.png" class="img-circle" width="60">
+                </a>
+              </p>
+              <h5 class="text-center">Bonnibel Bubblegum</h5>
+              <li class="sub-menu">
+                <a href="dashboard.html"> <i class="fa fa-dashboard"></i>Tablero</a>
+              </li>
+              <li class="sub -menu">
+                <a  href="buttons.html"><i class="fa fa-desktop"></i>Botones</a>
+              </li>
+              <li class="sub-menu">
+                <a href="progress.html"><i class="fa fa-desktop"></i>Barras de Progreso</a>
+              </li>            
+              <li class="sub-menu">
+                <a class="active" href="form_component.html"><i class="fa fa-cogs"></i>Formas</a>
+              </li>
+              <li class="sub-menu"><a href="basic_tables.html"><i class="fa fa-th"></i>Tablas de datos</a>
+              </li>            
+              <li class="sub-menu">
+                <a href="gallery.html"><i class="fa fa-tasks"></i>Galería</a>
+              </li>
+              <li class="sub-menu">
+                <a href="login.html"><i class="fa fa-book"></i>Página de inicio de sesión</a>
+              </li> 
+            </ul>
+          </div>
+        </aside>
+      <section id="main-content">
+       <section class="wrapper">
+         <div class="row mt">
+           <div class="col-lg-12">
+            <h2><i class="fa fa-angle-right"></i> Form Components</h2>
+             <div class="showback">
+               <h3><i class="fa fa-angle-right"></i> Form Elements</h3>
+               <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Default</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Help text</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                    A block of help text that breacks onto a new line and may extend beyond one line
+                  </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Rounder</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control round-form" id="inputPassword3">
+                  </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Input Focus</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" id="focusedInput" type="text" placeholder="This is Focused">
+                  </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                   <label for="inputPassword3" class="col-sm-2 control-label">Disabled</label>
+                   <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here" disabled>
+                    </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                   <label for="inputPassword3" class="col-sm-2 control-label">Placeholder</label>
+                   <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="text" placeholder="Placeholder">
+                    </div>
+                </div>
+                <hr class="visible">
+                <div class="form-group">
+                   <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                   <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="text">
+                    </div>
+                </div>
+                <hr class="visible">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <p class="form-control-static">email@example.com</p>
+                    </div>
+                  </div>
+                </form>
+                <hr class="visible">
+               </form>
+             </div>
+             <div class="showback">
+               <h3><i class="fa fa-angle-right"></i> Inline Form</h3>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-bg-theme">Sign in</button>
+                </form>
+             </div><!--cierre de showback-->
+            <div class="showback">
+              <h2><i class="fa fa-angle-right"></i>Inline Form</h2>
+                <div class="row mt">
+                  <div class="col-md-3 col-xs-3">
+                   <div class="form-group has-success">
+                     <label class="control-label" for="inputSuccess1">Input with success</label>
+                   </div>
+                  </div>
+                 <div class="col-md-9 col-xs-9">
+                  <div class="form-group has-success">
+                   <input type="text" class="form-control" id="inputSuccess1">
+                  </div>
+                </div>
+                <div class="form-group has-warning col-sm-3">
+                  <label class="control-label" for="inputWarning1">Input with warning</label>
+                 </div>
+                <div class="form-group has-warning col-sm-9">
+                  <input type="text" class="form-control" id="inputWarning1">
+                </div>
+                <div class="form-group has-warning col-sm-3">
+                  <div class="form-group has-error">
+                    <label class="control-label" for="inputError1">Input with error</label>
+                 </div>
+                </div>
+                <div class="form-group has-warning col-sm-9">
+                  <input type="text" class="form-control" id="inputError1">
+                </div>
+               </div>
+            </div><!--cierre de showback-->
+            <div class="showback">
+               <h2><i class="fa fa-angle-right"></i> Checkboxes, Radios & Selects</h2>
+                 <div class="row ml">
+               <div class="page-header">
+                 <div class="checkbox">
+                   <label>
+                    <input type="checkbox" value="">
+                     Option one is this and that- be sure to include why it's great.
+                   </label>
+                 </div>             
+               <div class="radio">
+                  <label>
+                   <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+                   Option one is this and that  be sure to include why it's great.
+                  </label>
+               </div>
+               <div class="radio">
+                  <label>
+                    <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                      option two can be something else and selecting it will deselect option one
+                  </label>
+              </div>         
+             </div>
+              <div class="page-header">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="checkboxEnLinea1" value="opcion_1"> 1
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="checkboxEnLinea2" value="opcion_2"> 2
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="checkboxEnLinea3" value="opcion_3"> 3
+                  </label>                  
+              </div>
+              <div class="page-header pr-2">
+                 <select class="form-control mb">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                 </select>
+                 
+                 <select multiple class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                 </select>
+              </div>
+             </div>
+            </div>
+          </div>   
+         </div><!--/row mt-->
+       </section><!--/wrapper-->
+      </section><!--/main-content-->
+   </section>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
